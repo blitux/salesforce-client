@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+echo "Running lint-staged..."
+npx lint-staged
+
+echo "Verifying project is buildable before commiting..."
+yarn build

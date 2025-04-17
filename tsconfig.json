@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    /* Base Options: */
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "es2022",
+    "allowJs": true,
+    "moduleDetection": "force",
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+
+    /* Strictness */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+
+    /* Transpilation Options */
+    "moduleResolution": "NodeNext",
+    "module": "NodeNext",
+    "outDir": "./dist",
+    "sourceMap": true,
+    "noEmitOnError": true,
+
+    /* Building as a library */
+    "declaration": true,
+    "lib": ["es2022"],
+
+    /* Path Related Options */
+    "baseUrl": ".",
+    "rootDir": "src",
+    "paths": {
+      "src/*": ["src/*"],
+      "interface/*": ["src/interface/*"],
+      "salesforce/*": ["src/adapters/salesforce/*"]
+    },
+    /* Misc */
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
