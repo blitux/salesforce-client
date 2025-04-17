@@ -30,5 +30,5 @@
   },
   "organizeImports": { "enabled": true },
   "linter": { "enabled": true, "rules": { "recommended": true } },
-  "javascript": { "formatter": { "quoteStyle": "single" }, "globals": [] }
+  "javascript": { "formatter": { "quoteStyle": "double" }, "globals": [] }
 }
