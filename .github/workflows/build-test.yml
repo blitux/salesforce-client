@@ -4,6 +4,7 @@ on:
   pull_request:
     branches:
       - "*"
+  workflow_dispatch:
 env:
   NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
